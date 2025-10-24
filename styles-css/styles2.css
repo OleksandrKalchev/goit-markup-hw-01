@@ -7,6 +7,14 @@
 }
 /* !important - най вища пріорітетність!!!! */
 
-p {
+/* p {
     color: blueviolet;
+} */
+
+:root {
+    --main-color: red;
+}
+
+p {
+   color: var(--main-color); 
 }
